@@ -1,4 +1,5 @@
 # PDF Compressor
+![image](https://github.com/user-attachments/assets/72eef7c7-f42c-4c4e-a935-b5e36f25ca3f)
 
 A lightweight and efficient PDF compression tool built with Python and Bottle. This tool allows users to upload multiple PDFs, compress them with different quality settings, and download the compressed files as a ZIP archive.
 
@@ -26,6 +27,7 @@ pip install -r requirements.txt
 
 ### Run the Application
 ```sh
+
 python3 app.py
 ```
 The app will run on `http://0.0.0.0:1234/`.
