@@ -1,6 +1,3 @@
-Here’s a professional `README.md` for your project:  
-
-```md
 # PDF Compressor
 
 A lightweight and efficient PDF compression tool built with Python and Bottle. This tool allows users to upload multiple PDFs, compress them with different quality settings, and download the compressed files as a ZIP archive.
@@ -27,25 +24,25 @@ A lightweight and efficient PDF compression tool built with Python and Bottle. T
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Run the Application
+### Run the Application
 ```sh
 python3 app.py
 ```
 The app will run on `http://0.0.0.0:1234/`.
 
-### 3️⃣ Build Platform-Independent Binaries
+### Build Platform-Independent Binaries
 For **Linux & Windows**, use:
 ```sh
 pyinstaller --onefile --name pdf-compressor app.py
 ```
 The binary will be generated in the `dist/` folder.
 
-## 🛠 GitHub Actions for Auto-Release
+## GitHub Actions for Auto-Release
 Whenever a change is pushed to the repository, GitHub Actions will:
 1. Build the binary for **Windows & Linux**.
 2. Upload the compiled binaries as a **GitHub Release**.
 
-## 🧑‍💻 Author
+## Author
 **Om Shingare**  
 GitHub: [ShingareOm](https://github.com/ShingareOm)  
 YouTube: [@shingareom](https://www.youtube.com/@shingareom)  
