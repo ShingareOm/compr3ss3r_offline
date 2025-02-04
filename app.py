@@ -8,7 +8,7 @@ import zipfile
 
 app = Bottle()
 
-# Increase upload memory limit to 500MB
+
 BaseRequest.MEMFILE_MAX = 500 * 1024 * 1024  # 500MB
 
 def compress_pdf_file(input_file, output_file, compression_level):
